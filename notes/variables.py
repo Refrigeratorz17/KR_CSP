@@ -16,3 +16,9 @@ BaseballTeam = "Giants"
 
 #reassign a variable =
 pi = 3.141
+
+name = input("what is your name?\n")
+quest = input("what is your quest?: ") 
+print("What is the average wing velocity of an unladen swallow") 
+Velocity = input()
+
