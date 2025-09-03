@@ -22,3 +22,4 @@ quest = input("what is your quest?: ")
 print("What is the average wing velocity of an unladen swallow") 
 Velocity = input()
 
+big_num = 9999999999999999999999
