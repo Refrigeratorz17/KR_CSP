@@ -8,10 +8,11 @@
 #total expenses- every money added 
 #spending = income-savings-total expenses 
 #float.2
-income = input("Hello! What is your monthly income?:")
-rent = input("What is your monthly rent/mortgage?:")
-utilities = input("what is your monthy utilities?:")
+
+income = input(int("what is your monthly income?:"))
+rent = input(int("What is your monthly rent/mortgage?:"))
+utilities = input("What is your monthly utilities?:")
 groceries = input("What is your monthly groceries?:")
-transport = input("What is your monthly transportation cost?:")
-r_p = rent / income * 100
-print("your rent is", rent, "and that is",r_p,"percent of your income")
+transportation = input("What is you rmonthly transportation?:") 
+
+print("your rent is $", rent, "that is", rent/income*100, "percent of your income")
