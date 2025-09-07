@@ -1,4 +1,4 @@
-# KR 6th Financial calcualtor 
+# KR 6th Financial calculator
 
 income = round(float(input("What is your monthly income?:")), 2)
 rent = round(float(input("What is your monthly rent/mortgage?:")),2)
