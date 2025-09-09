@@ -23,6 +23,9 @@ print("Welcome to my program", full_name + "!")
     #sanitation-
 #What is debugging?
 #debugging is fixing problems in my code!
+    #Sytax Error 
+    #Logic Error
+    #Run-Time Error 
 #How do you debug the different types of errors?
 #Describe what each of the methods below does:
     #find()
