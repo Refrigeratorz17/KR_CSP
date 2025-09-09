@@ -22,6 +22,7 @@ print("Welcome to my program", full_name + "!")
     #stupid proofing-
     #sanitation-
 #What is debugging?
+#debugging is fixing problems in my code!
 #How do you debug the different types of errors?
 #Describe what each of the methods below does:
     #find()
