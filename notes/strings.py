@@ -18,7 +18,7 @@ sentance = 'The quick brown fox jumps over the lazy dog'
 
 print("Welcome to my program", full_name + "!")
 print(sentance.find("brown"))
-print(sentance{10:15}) #slice
+print(sentance,{10:15}) #slice
 #2)-Why do we have strings?
     #2).so we can talk to the user
 #How do stupid proofing and sanitization relate to each other?
