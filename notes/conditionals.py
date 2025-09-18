@@ -21,10 +21,11 @@
     #==:equal to
     #!:not equal to
 #What are the 3 logical operators?
-#start with least likely thing, and then end with the most likely 
+    #AND-OR-NOT
 #What are logical operators for?
-#the if statement can't be the catch all, start with the least likely thing 
+    #lets us put multiple conidtions together, check two or more conditions at the same time
 #What does a nested conditional statement do?
+    #a condition inside of a conditional.
 
 num = int(input("Tell me a whole number: "))
 
@@ -41,7 +42,20 @@ name = input("Please tell me your name: ")
 
 if name == "Ms LaRose":
     print("You are the teacher!")
-elif name == "Tia":
+    if num == 4:
+        print("That is my favoirtie number")
+elif name == "Tia" or name == "Andrew":
     print("you are the TA!")
 else:
+    if name == "Lucas":
+        print("You are in 7th period")
     print(f"Hello {name}, you are a student!")
+
+if num >=0 and num < 10: #and means both must be true
+    print(f"{num} is a single digit number")
+elif num <25 or num == 50: #or means only 1 must be true
+    print(f"Wow {num} is a really cool number")
+elif not num < 100: #not checks is the opposit is true
+    print(f"{num} is a large number")
+else:
+    print(f"you typed in a {num}")
