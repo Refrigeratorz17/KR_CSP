@@ -68,7 +68,7 @@ while True:
 #What are the two types of loops?
     #for loop and whule loops
 #What is iteration
-    #keep track of how many times the loop has run
+    #keep track of how many times the loop has run. An iteration is one instance of a loop
 #What are lists? 
     #A variable you can put multiple data types in
 #How do you make lists in python? 
