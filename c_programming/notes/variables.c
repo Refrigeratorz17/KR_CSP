@@ -44,5 +44,6 @@ int main(void){
     //scanf - need to know list 1. what kind of data it's getting 2. where to send the info
     // scan f cannot have any spaces
 //What is the purpose of the #include <stdio.h> line at the beginning of a C program?
+    //inputs and outputs variables. 
 //What is the purpose of the & symbol when using scanf() to get user input?
     //the and is adding the variable into the correct space
