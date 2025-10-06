@@ -2,10 +2,13 @@
 #include <stdio.h>
 
 int main(void){
-    char name; 
+    char name[20]; 
     
     printf("Please enter your name: ");
-    scanf("%s",&name);
+    fgets(name, sizeof(name), stdin);
+    
 
-    printf("Hello, s% Welcome to your first C program!",name);
+    printf("Hello, %s Welcome to your first C program!\n",name);
+
+    return 0;
 }
