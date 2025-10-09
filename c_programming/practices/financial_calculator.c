@@ -10,7 +10,7 @@ int main(void){
 
     printf("What is your income?\n");
     scanf("%1.0f", &income);
-    while(getfloat() != '\n')
+    //while(getfloat() != '\n')
     printf("What is your monthly rent?\n");
     scanf("%1.0f", &rent);
     printf("What is your monthly utilities cost?\n");
