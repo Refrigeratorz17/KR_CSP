@@ -3,19 +3,18 @@
 #include <strings.h>
 
 int main(void){
+    char name[30];
+    char decoration[25] = "<<<";
+    char decoration_two[25] = ">>>";
 
-    char decoration[25] = "<~^";
-    char name[35];
-    char decorationS[25] = "^~>";
+    printf("Hello! Welcome to the name decorator!\nWhat is your name:\n");
+    scanf("%s", &name);
 
-    
-
-    printf("Hello! Welcome to the name decorator!\nPlease enter your name: \n");
-    scanf("%s", name);
-    
     strcat(decoration,name);
-    
-    printf("%s", name);
+    strcat(decoration,decoration_two);
+    printf("%s",decoration);
+
+
 
 
 
