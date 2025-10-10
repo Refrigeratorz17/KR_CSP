@@ -3,9 +3,9 @@
 #include <strings.h>
 
 int main(void){
-    char decoration[100] = "<~^";
-    char name[25];
-    char decorationS[100] = "^~>";
+    char decoration[25] = "<~^";
+    char name[35];
+    char decorationS[25] = "^~>";
 
     printf("Hello welcome to name decorator!\n");
     printf("Please enter your name: \n");
