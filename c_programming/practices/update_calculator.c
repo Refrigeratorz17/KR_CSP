@@ -21,7 +21,7 @@ int main(void){
     float groceries = cost("groceries");
     float transport = cost("transportation");
 
-    int savings = income*0.1;
+    float savings = income*0.1;
 
     float rent_perc = percent(rent,income);
     float util_perc = percent(utilities,income);
@@ -33,5 +33,9 @@ int main(void){
     printf("your utilites is $%1.2f and that is %1.0f percent of your income.\n", utilities,util_perc);
     printf("your groceries is $%1.2f and that is %1.0f percent of your income.\n", groceries,groc_perc);
     printf("your transport is $%1.2f and that is %1.0f percent of your income.\n", transport,tran_perc);
-    printf("you should save %f a month and that is %1.0f percent of your income.\n", savings, save_perc);
+    printf("you should save %1.2f a month and that is %1.0f percent of your income.\n", savings, save_perc);
+
+    float total = savings+transport+groceries+utilities+rent;
+    float spending_money = income-total;
+    printf("you have %1.2f of spending money each month!", spending_money);
 }
